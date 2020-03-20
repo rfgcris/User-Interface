@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	margin: 4%;
+	color: gray;
+}
+
+.logo{
+	float: right;
+}
+.head{
+	padding: 100px 10px;
+}
+
+#head-text, #code-snippet{
+	display: inline-block;
+	vertical-align: middle;
+	width: 48%;
+}
+
+#head-text{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#get-started-button{
+	background: none;
+	border: 1px solid black;
+	height: 50px;
+	width: 200px;
+}
+
+#get-started-button:hover{
+	cursor: pointer;
+}
+
+#code-snippet{
+	position: relative;
+	right: 0;
+	text-align: center;
+	z-index: -100;
+}
+
+#code-snippet img{
+	height: 40%;
+	width: 350px;
+}
+
+.content{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding: 50px 0;
+}
+
+.content h2{
+	color: black;
+}
+
+.content p{
+	font-family: 'Bellota';
+}
+
+#features, #about{
+	display: inline-block;
+	margin: 0 20px 50px 0;
+	width: 45%;
+}
+
+#services, #product, #vision{
+	display: inline-block;
+	margin: 50px 20px 0 0;
+	width: 30%;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.contact{
+	padding: 50px 0;
+}
+
+.contact p{
+	font-family: 'Bellota';
+}
+
+#contact-address p:nth-of-type(3){
+	margin: 20px 0;
+}
+
+.site-footer p{
+	font-family: 'Bellota';
+	text-align: center;
+}
